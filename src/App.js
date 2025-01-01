@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar title="TextUtill" about="About"/>
-      <Alert/>
+      {/* <Alert/> */}
       <div className="container my-3">
         <TextForm title="Enter Your Text"/> 
       </div>
