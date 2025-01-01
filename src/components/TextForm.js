@@ -46,27 +46,27 @@ export default function TextForm(props) {
         </div>
         <div className="d-flex justify-content-center">
           <button
-            className="btn btn-success mx-2"
+            className="btn btn-success mx-1 my-1"
             onClick={handleUpClick}
           >
             Convert to UpperCase
           </button>
           <button
-            className="btn btn-danger mx-2"
+            className="btn btn-danger mx-1 my-1"
             onClick={handleLoClick}
           >
             Convert to LowerCase
           </button>
 
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary mx-1 my-1"
             onClick={handleClearClick}
           >
             Clear Text
           </button>
 
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary mx-1 my-1"
             onClick={handleCopy}
           >
             Copy
